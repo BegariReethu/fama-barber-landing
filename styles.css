@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.hero {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn.primary {
+  background: white;
+  color: black;
+}
+
+.btn.secondary {
+  border: 1px solid white;
+  color: white;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services .service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.service-list div {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+}
